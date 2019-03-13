@@ -14,6 +14,8 @@
 		4C8FB53022386260008F0A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8FB52E22386260008F0A5F /* LaunchScreen.storyboard */; };
 		4C8FB53322386260008F0A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8FB53222386260008F0A5F /* main.m */; };
 		4CC93A54223865680068DBD1 /* NASAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC93A53223865680068DBD1 /* NASAViewController.swift */; };
+		4CC93A57223868DD0068DBD1 /* Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC93A56223868DD0068DBD1 /* Cache.m */; };
+		4CC93A5A22388AC30068DBD1 /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC93A5922388AC30068DBD1 /* SolDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		4C8FB53222386260008F0A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC93A52223865670068DBD1 /* Astronomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Astronomy-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CC93A53223865680068DBD1 /* NASAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAViewController.swift; sourceTree = "<group>"; };
+		4CC93A55223868DD0068DBD1 /* Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		4CC93A56223868DD0068DBD1 /* Cache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cache.m; sourceTree = "<group>"; };
+		4CC93A5822388AC30068DBD1 /* SolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolDescription.h; sourceTree = "<group>"; };
+		4CC93A5922388AC30068DBD1 /* SolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				4CC93A53223865680068DBD1 /* NASAViewController.swift */,
+				4CC93A55223868DD0068DBD1 /* Cache.h */,
+				4CC93A56223868DD0068DBD1 /* Cache.m */,
 				4C8FB5232238625E008F0A5F /* AppDelegate.h */,
 				4C8FB5242238625E008F0A5F /* AppDelegate.m */,
 				4C8FB5262238625E008F0A5F /* ViewController.h */,
 				4C8FB5272238625E008F0A5F /* ViewController.m */,
+				4CC93A5822388AC30068DBD1 /* SolDescription.h */,
+				4CC93A5922388AC30068DBD1 /* SolDescription.m */,
 				4C8FB5292238625E008F0A5F /* Main.storyboard */,
 				4C8FB52C22386260008F0A5F /* Assets.xcassets */,
 				4C8FB52E22386260008F0A5F /* LaunchScreen.storyboard */,
@@ -149,6 +159,8 @@
 			files = (
 				4C8FB5282238625E008F0A5F /* ViewController.m in Sources */,
 				4CC93A54223865680068DBD1 /* NASAViewController.swift in Sources */,
+				4CC93A57223868DD0068DBD1 /* Cache.m in Sources */,
+				4CC93A5A22388AC30068DBD1 /* SolDescription.m in Sources */,
 				4C8FB53322386260008F0A5F /* main.m in Sources */,
 				4C8FB5252238625E008F0A5F /* AppDelegate.m in Sources */,
 			);

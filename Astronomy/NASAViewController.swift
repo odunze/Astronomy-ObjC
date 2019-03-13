@@ -6,7 +6,9 @@
 //  Copyright © 2019 Lotanna Igwe-Odunze. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NASAViewController: UICollectionViewController{
 override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -25,7 +27,7 @@ override func collectionView(_ collectionView: UICollectionView, numberOfItemsIn
 }
 
 override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "", for: indexPath)
     
     // Configure the cell
     
@@ -70,4 +72,4 @@ override func collectionView(_ collectionView: UICollectionView, cellForItemAt i
  }
  */
 
-}s
+}
