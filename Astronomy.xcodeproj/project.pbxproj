@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C774AE2223AB0A8008BEC80 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C774AE1223AB0A8008BEC80 /* Camera.m */; };
 		4C8FB5252238625E008F0A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8FB5242238625E008F0A5F /* AppDelegate.m */; };
 		4C8FB5282238625E008F0A5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8FB5272238625E008F0A5F /* ViewController.m */; };
 		4C8FB52B2238625E008F0A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8FB5292238625E008F0A5F /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C774AE0223AB0A8008BEC80 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		4C774AE1223AB0A8008BEC80 /* Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
 		4C8FB5202238625E008F0A5F /* Astronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8FB5232238625E008F0A5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C8FB5242238625E008F0A5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 		4C8FB5222238625E008F0A5F /* Astronomy */ = {
 			isa = PBXGroup;
 			children = (
+				4C774AE0223AB0A8008BEC80 /* Camera.h */,
+				4C774AE1223AB0A8008BEC80 /* Camera.m */,
 				4CC93A53223865680068DBD1 /* NASAViewController.swift */,
 				4CC93A55223868DD0068DBD1 /* Cache.h */,
 				4CC93A56223868DD0068DBD1 /* Cache.m */,
@@ -166,6 +171,7 @@
 				4CC93A54223865680068DBD1 /* NASAViewController.swift in Sources */,
 				4CC93A57223868DD0068DBD1 /* Cache.m in Sources */,
 				4CC93A5D22388B9B0068DBD1 /* MarsRover.m in Sources */,
+				4C774AE2223AB0A8008BEC80 /* Camera.m in Sources */,
 				4CC93A5A22388AC30068DBD1 /* SolDescription.m in Sources */,
 				4C8FB53322386260008F0A5F /* main.m in Sources */,
 				4C8FB5252238625E008F0A5F /* AppDelegate.m in Sources */,
